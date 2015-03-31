@@ -325,7 +325,7 @@
                         </li>
                         <li><a href="https://www.facebook.com/GSL4665"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://github.com/PredatorsRobotics"><i class="fa fa-github"></i></a>
                         </li>
                     </ul>
                 </div>
