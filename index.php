@@ -1,3 +1,4 @@
+<?php $con = mysqli_connect(localhost, $username, $password, predators); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,6 +32,12 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .table td {
+            text-align: center;  
+            vertical-align: middle;
+        }
+    </style>
 
 </head>
 
@@ -97,6 +104,9 @@
                     <h3 class="section-subheading text-muted">Mariucci Arena | April 2-4, 2015</h3>
                 </div>
             </div>
+            <div class="row">
+                <?php include('table.html'); ?>
+            </div>
         </div>
     </section>
 
@@ -109,56 +119,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-1">
-                    <div class="thumbnail">
-                        <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-                    </div><!-- /thumbnail -->
-                </div><!-- /col-sm-1 -->
-                
-                <div class="col-sm-5">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <strong>We're At competition!</strong> <span class="text-muted">by Eric Villnow</span>
-                        </div>
-                        <div class="panel-body">
-                            weve made it!<br><br><img class="img-responsive" src="img/header-bg.jpg">
-                        </div><!-- /panel-body -->
-                    </div><!-- /panel panel-default -->
-                </div><!-- /col-sm-5 -->
-                
-                <div class="col-sm-1">
-                    <div class="thumbnail">
-                        <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-                    </div><!-- /thumbnail -->
-                </div><!-- /col-sm-1 -->
-                
-                <div class="col-sm-5">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <strong>Sloan Becker</strong> <span class="text-muted">posted 5 days ago</span>
-                        </div>
-                        <div class="panel-body">
-                            I put on a moter!
-                        </div><!-- /panel-body -->
-                    </div><!-- /panel panel-default -->
-                </div><!-- /col-sm-5 -->
-                
-                <div class="col-sm-1">
-                    <div class="thumbnail">
-                        <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
-                    </div><!-- /thumbnail -->
-                </div><!-- /col-sm-1 -->
-                
-                <div class="col-sm-5">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <strong>Chandler Swift</strong> <span class="text-muted">posted 5 days ago</span>
-                        </div>
-                        <div class="panel-body">
-                            Darn Russians
-                        </div><!-- /panel-body -->
-                    </div><!-- /panel panel-default -->
-                </div><!-- /col-sm-5 -->
+                <?php include('posts.html'); ?>
             </div><!-- /row -->
     </section>
 
@@ -274,7 +235,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Drop us a line and we'll get right back to you.</h3>
+                    <h3 class="section-subheading text-muted">Drop us a line and we'll get back to you.</h3>
                 </div>
             </div>
             <div class="row">
@@ -321,11 +282,11 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="https://twitter.com/GSLPredators"><i class="fa fa-twitter"></i></a>
+                        <li><a title="Twitter" href="https://twitter.com/GSLPredators"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="https://www.facebook.com/GSL4665"><i class="fa fa-facebook"></i></a>
+                        <li><a title="Facebook" href="https://www.facebook.com/GSL4665"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="https://github.com/PredatorsRobotics"><i class="fa fa-github"></i></a>
+                        <li><a title="Git Hub" href="https://github.com/PredatorsRobotics"><i class="fa fa-github"></i></a>
                         </li>
                     </ul>
                 </div>
