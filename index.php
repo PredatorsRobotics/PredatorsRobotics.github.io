@@ -259,7 +259,7 @@
                                     <h4 class="subheading">Recycle Rush</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">This years challenge is Recycle Rush.</p>
+                                    <p class="text-muted">This year's challenge is Recycle Rush. Recycling bins are stacked, garbage cans are retrieved, and pool noodles are thrown in FIRST's latest high school robotics competition. Robot size rules are relaxed, leading to our largest robot yet, and we've introduced our first autonomous programming this year.</p>
                                 </div>
                             </div>
                         </li>
