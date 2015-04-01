@@ -38,6 +38,21 @@
             vertical-align: middle;
         }
     </style>
+	<style>
+    	body::-webkit-scrollbar {
+    	  width:10px;
+    	}
+    	
+    	body::-webkit-scrollbar-thumb {
+    	  background: #ffd331 !important;
+    	}
+    	body::-webkit-scrollbar {
+          height: 16px;
+          overflow: visible;
+          width: 10px;
+          background: #212021;
+        }
+	</style>
 
 </head>
 
