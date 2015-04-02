@@ -1,4 +1,4 @@
-<?php $con = mysqli_connect(localhost, $username, $password, predators); ?>
+<?php // $con = mysqli_connect(localhost, $username, $password, predators); ?>
 <!DOCTYPE html>
 <html lang="en">
 
