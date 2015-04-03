@@ -293,7 +293,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright"><b></b>&copy; <?php echo date("Y"); ?></b> Predators Robotics</span>
+                    <span class="copyright"><b></b>&copy;<?php echo date("Y"); ?></b> Predators Robotics</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
