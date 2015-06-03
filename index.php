@@ -18,6 +18,7 @@
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/post.css" rel="stylesheet">
+    <link href="css/calendar.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -79,16 +80,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a href="#competition" class="page-scroll">Competition</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#blog">Blog</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#teams">Teams</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#calendar_section">Calendar</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -110,34 +108,6 @@
             </div>
         </div>
     </header>
-
-    <section id="competition">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Competiton</h2>
-                    <h3 class="section-subheading text-muted">Mariucci Arena | April 2-4, 2015</h3>
-                </div>
-            </div>
-            <div class="row">
-                <?php include('table.html'); ?>
-            </div>
-        </div>
-    </section>
-
-    <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Blog</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-            <div class="row">
-                <?php include('posts.html'); ?>
-            </div><!-- /row -->
-    </section>
-
 
     <!-- Services Section -->
     <section id="teams">
@@ -241,6 +211,20 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="calendar_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Calendar</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div id="calendar"></div>
             </div>
         </div>
     </section>
@@ -351,6 +335,23 @@
             </div>
         </div>
     </div>
+    
+    <!-- Cal Modal -->
+    <div id="fullCalModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span> <span class="sr-only">close</span></button>
+                    <h4 id="modalTitle" class="modal-title"></h4>
+                </div>
+                <div id="modalBody" class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary"><a id="eventUrl" target="_blank">Event Page</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -369,6 +370,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+    
+    <!-- Calendar JS -->
+    <script src="js/calendar.js"></script>
 
 </body>
 
