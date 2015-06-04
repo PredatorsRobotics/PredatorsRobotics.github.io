@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.png">
 
     <title>GSL Robotics 4665</title>
 
@@ -290,12 +291,13 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <!--<ul class="list-inline quicklinks">
-                        <li><a href="#privacyPolicyModal" data-toggle="modal">Privacy Policy</a>
+                    <ul class="list-inline quicklinks">
+                        <!--<li><a href="#privacyPolicyModal" data-toggle="modal">Privacy Policy</a>
                         </li>
                         <li><a href="#termsOfUse" data-toggle="modal">Terms of Use</a>
-                        </li>
-                    </ul>-->
+                        </li>-->
+                        <li><img src="favicon.png" height="40px" /></li>
+                    </ul>
                 </div>
             </div>
         </div>
