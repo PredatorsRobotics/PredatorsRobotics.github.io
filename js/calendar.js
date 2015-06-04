@@ -12,11 +12,25 @@ $.getScript('http://arshaw.com/js/fullcalendar-1.6.4/fullcalendar/fullcalendar.m
       right: 'month,agendaWeek,agendaDay'
     },
     editable: true,
+    eventColor: '#fed136',
+    eventTextColor: '#000000',
     events: [
        {
-        title: 'American Legion Presentation',
-        start: new Date(15, 5, 18, 18, 0),
-        end: new Date(15, 5, 18, 19, 0),
+        title: 'Glencoe Days Parade',
+        start: new Date(2015, 5, 27, 9, 0),
+        end: new Date(2015, 5, 27, 12, 0),
+        allDay: false
+      },
+      {
+        title: 'Shop Closed For Painting',
+        start: new Date(2015, 5, 4, 9, 0),
+        end: new Date(2015, 5, 8, 12, 0),
+        color: '#ff0000'
+      },
+      {
+        title: 'Robotics Training',
+        start: new Date(2015, 5, 20, 8, 0),
+        end: new Date(2015, 5, 20, 19, 0),
         allDay: false
       }
       /*{
