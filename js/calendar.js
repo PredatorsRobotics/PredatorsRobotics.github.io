@@ -17,8 +17,8 @@ $.getScript('http://arshaw.com/js/fullcalendar-1.6.4/fullcalendar/fullcalendar.m
     events: [
        {
         title: 'Glencoe Days Parade',
-        start: new Date(2015, 5, 27, 9, 0),
-        end: new Date(2015, 5, 27, 12, 0),
+        start: new Date(2015, 5, 27, 12, 0),
+        end: new Date(2015, 5, 27, 16, 30),
         allDay: false
       },
       {
@@ -31,6 +31,12 @@ $.getScript('http://arshaw.com/js/fullcalendar-1.6.4/fullcalendar/fullcalendar.m
         title: 'Robotics Training',
         start: new Date(2015, 5, 20, 8, 0),
         end: new Date(2015, 5, 20, 19, 0),
+        allDay: false
+      },
+      {
+        title: 'Engineering Advisory Meeting',
+        start: new Date(2015, 5, 30, 7, 30),
+        end: new Date(2015, 5, 30, 8, 30),
         allDay: false
       }
       /*{
