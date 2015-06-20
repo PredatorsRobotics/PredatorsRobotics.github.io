@@ -210,6 +210,20 @@
                                 </div>
                             </div>
                         </li>
+                         <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/team15sq.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2015-2016</h4>
+                                    <h4 class="subheading">What's Next?</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Here is to our future!</p>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
