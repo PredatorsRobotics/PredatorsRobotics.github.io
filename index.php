@@ -241,6 +241,10 @@
             <div class="row">
                 <div id="calendar"></div>
             </div>
+            <div class="row">
+                <h3>State Fair | September 4th</h3>
+                Check Back for details.
+            </div>
         </div>
     </section>
 

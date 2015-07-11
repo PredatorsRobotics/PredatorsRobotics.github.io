@@ -38,7 +38,13 @@ $.getScript('http://arshaw.com/js/fullcalendar-1.6.4/fullcalendar/fullcalendar.m
         start: new Date(2015, 5, 30, 7, 30),
         end: new Date(2015, 5, 30, 8, 30),
         allDay: false
-      }
+      },
+      {
+        title: 'State Fair',
+        start: new Date(2015, 8, 4, 12, 0),
+        end: new Date(2015, 8, 4, 16, 30),
+        allDay: true
+      },
       /*{
         title: 'All Day Event',
         start: new Date(y, m, 1)
